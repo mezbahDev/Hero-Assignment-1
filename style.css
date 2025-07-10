@@ -42,34 +42,74 @@ body {
   font-size: 34px;
   font-family: "inter";
   font-weight: 800;
-  color: #4E47FF;
+  color: #4e47ff;
 }
 
-.btn{
-    height: 50px;
-    padding:12px 36px;
-    border: none;
-    background-color: #4E47FF;
-    color: #ffffff;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
+.btn {
+  height: 50px;
+  padding: 12px 36px;
+  border: none;
+  background-color: #4e47ff;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.banner-text{
-    width: 905px;
-    height: 237px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 37px;
+.banner-text {
+  width: 905px;
+  height: 237px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 37px;
 }
 
-.banner-text p{
-    font-size: 65px;
-    font-weight: bold;
-    color: #252432;
-    text-align: center;
+.banner-text p {
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
 }
 
+/* action section style */
 
+.action {
+  width: 1140px;
+  height: 330px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.action_text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.action_text-section h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action_text-section p {
+  width: 517px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgba(47, 36, 50, 0.5);
+}
+
+.action_text-section button {
+  width: 240px;
+  height: 50px;
+}
+
+.action img {
+  height: 330px;
+  width: 403px;
+  border-radius: 48px;
+}

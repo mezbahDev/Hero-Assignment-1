@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
 }
 
 /* banner section style */
@@ -24,8 +24,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 150px;
   padding-bottom: 200px;
-  gap: 200px;
   background-image: url(Assets/Hero-bg.png);
 }
 
@@ -54,6 +54,12 @@ body {
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.btn:hover {
+  scale: 1.1;
+  cursor: pointer;
+  background-color: rgb(8, 0, 255);
 }
 
 .banner-text {
@@ -229,99 +235,153 @@ body {
   color: #757575;
 }
 
-
 /* focus section style */
 
-.focus{
-    width: 1140px;
-    height: 697px;
-    margin: 7rem;
-    padding: 71px 150px;
-    background-color: #fffdff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+.focus {
+  width: 1140px;
+  height: 697px;
+  margin: 7rem;
+  padding: 71px 150px;
+  background-color: #fffdff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-.focus h2{
-    font-size: 50px;
-    font-weight: bold;
+.focus h2 {
+  font-size: 50px;
+  font-weight: bold;
 }
 
-.focus p{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 16px;
+.focus p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
 }
 
-.focus img{
-    width: 840px;
-    height: 365px;
-    border-radius: 48px;
+.focus img {
+  width: 840px;
+  height: 365px;
+  border-radius: 48px;
 }
-
 
 /* newsletter section style */
 
-.newsletter{
-    width: 1140px;
-    height: 632px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 71px 0;
-    background-color: aqua;
+.newsletter {
+  width: 1140px;
+  height: 632px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 71px 0;
 }
 
-.newsletter h1{
-    width: 528px;
-    height: 232px;
-    font-size: 97px;
+.newsletter h1 {
+  width: 528px;
+  height: 232px;
+  font-size: 97px;
 }
 
-.form-section{
-    width: 497px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 19px;
+.form-section {
+  width: 497px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
 }
 
-.form-block{
-    width: 100%;
-    height: 102px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.form-block {
+  width: 100%;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.form-block p{
-    font-family: "inter";
-    font-size: 18px;
-    font-weight: 500;
+.form-block p {
+  font-family: "inter";
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.form-block input{
-    width: 497px;
-    height: 70px;
-    border-radius: 10px;
-    border: none;
-    padding: 20px 32px;
-    border: none;
+.form-block input {
+  width: 497px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 32px;
+  border: none;
+  box-shadow: 1px 1px 15px rgba(214, 214, 214, 0.5);
+  transition: border 0.2s ease;
+  outline: none;
+  font-size: 20px;
 }
 
 .form-block input::placeholder {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.chat{
-    width: 100%;
-    min-height: 135px;
-    box-sizing: border-box;
-
+.form-block input:hover {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  outline: none;  
+  cursor: pointer;
 }
 
-.newsletter .btn{
-    margin-top: 5rem;
-    width: 100%;
+
+.chat {
+  width: 100%;
+  min-height: 135px;
+  box-sizing: border-box;
+}
+
+.newsletter .btn {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+/* footer section style */
+
+.footer {
+  width: 1440px;
+  height: 428px;
+  padding: 104px 455px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-text h6 {
+  font-size: 100px;
+  color: #4e47ff;
+  font-family: "inter";
+  font-weight: 800;
+}
+
+.footer-text p {
+  color: #8987a1;
+  text-align: center;
+  line-height: 20px;
+}
+
+.footer-link {
+  height: 24px;
+  width: 401px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-family: "inter";
+  color: #8987a1;
+}
+
+.footer-link:hover{
+    cursor: pointer;
+    scale: 1.1;
 }

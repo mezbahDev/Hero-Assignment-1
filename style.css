@@ -113,3 +113,42 @@ body {
   width: 403px;
   border-radius: 48px;
 }
+
+
+/* productive_user section style */
+
+.productive_user {
+    width: 1140px;
+    height: 306px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 80px;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.productive_user-txt{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.user{
+    display: flex;
+    gap: 158px;
+    font-family: "inter";
+}
+
+.user_block h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.user_block p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+

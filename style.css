@@ -233,5 +233,31 @@ body {
 /* focus section style */
 
 .focus{
+    width: 1140px;
+    height: 697px;
     margin: 7rem;
+    padding: 71px 150px;
+    background-color: #fffdff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
+
+.focus h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+.focus img{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+}
+
+
